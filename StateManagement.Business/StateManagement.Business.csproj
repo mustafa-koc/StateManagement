@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StateManagement.Data\StateManagement.Data.csproj" />
+    <ProjectReference Include="..\StateManagement.DTO\StateManagement.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
